@@ -1,7 +1,63 @@
 /**************google font font:roboto is imported *******************************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 /* utility */
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header section style */
+.header-section {
+  display: flex;
+  background-color: #1f618d;
+  color: #ffffff;
+  width: 1440px;
+  height: 677px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slogan {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+  width: 485px;
+  height: 230px;
+  margin-left: 156px;
+  margin-top: 207px;
+}
+header .button {
+  margin-top: 27px;
+  margin-left: 156px;
+  margin-bottom: 169px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 40px;
+
+  background: #e02c6e;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-align: center;
+
+  transition: 0.5s;
+}
+.button a:hover {
+  border-radius: 20px;
+}
+.button i {
+  padding-left: 20px;
+}
+.banner img {
+  width: 556.01px;
+  height: 438px;
+  margin: 153px 140px 86px 0px;
+}
+.banner img:hover {
+    transform: rotateY(360deg);
+    transition: transform 5s ease-in-out;
+    cursor: pointer;
 }
