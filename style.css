@@ -1,0 +1,7 @@
+/**************google font font:roboto is imported *******************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* utility */
+body {
+    font-family: 'Roboto', sans-serif;
+}
