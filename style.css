@@ -5,17 +5,31 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+main {
+ 
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  width: 1440px;
+  height: 3073px;
+  background: #ffffff;
+  margin-top: 40px;
+}
 
-/* header section style */
+/* header section style  start*/
 .header-section {
   display: flex;
+  justify-content:center;
+  align-items: center;
   background-color: #1f618d;
   color: #ffffff;
   width: 1440px;
   height: 677px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  top: -8px;
+  left: -8px;
 }
 .slogan {
   font-size: 64px;
@@ -23,12 +37,12 @@ body {
   line-height: 80px;
   width: 485px;
   height: 230px;
-  margin-left: 156px;
+  margin-left: 200px;
   margin-top: 207px;
 }
 header .button {
   margin-top: 27px;
-  margin-left: 156px;
+  margin-left: 200px;
   margin-bottom: 169px;
 }
 
@@ -51,13 +65,61 @@ header .button {
 .button i {
   padding-left: 20px;
 }
+.banner {
+    margin: 153px 100px 86px 0px;
+}
 .banner img {
   width: 556.01px;
   height: 438px;
-  margin: 153px 140px 86px 0px;
+  
 }
 .banner img:hover {
-    transform: rotateY(360deg);
-    transition: transform 5s ease-in-out;
-    cursor: pointer;
+  transform: rotateY(360deg);
+  transition: transform 5s ease-in-out;
+  cursor: pointer;
 }
+/* header section style end */
+
+/* about player section start */
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+}
+.player {
+    display: flex;
+    flex-direction: column;
+  width: 330px;
+  height: 474px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+  background-color: #ffffff;
+ 
+}
+.player-info{
+    text-align:justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+   
+}
+.player-describe{
+    color:#6C6C6C;
+    font-size: 14px;
+}
+.player-title {
+    color:#18191F;
+    font-size: 28px;
+}
+
+
+.player-photo img {
+  width: 300px;
+  height: 256px;
+  
+  margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* about player section end */
