@@ -4,6 +4,7 @@
 /* utility */
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
 }
 main {
   display: flex;
@@ -27,9 +28,7 @@ main {
   color: #ffffff;
   width: 1440px;
   height: 677px;
-  position: relative;
-  top: -8px;
-  left: -8px;
+  
 }
 .slogan {
   font-size: 64px;
@@ -185,6 +184,8 @@ footer {
     height: auto;
   }
   .header-section {
+    /* position: relative; */
+    
     width: 100%;
     height: auto;
     flex-direction: column;
@@ -202,14 +203,14 @@ footer {
   }
   .player {
     width: 100%;
-    height:auto;
+    height: auto;
   }
   .player-photo img {
     width: 95%;
     height: auto;
   }
   footer {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-left: 0px;
     margin-right: 50px;
