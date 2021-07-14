@@ -69,8 +69,10 @@ header .button {
   margin: 153px 100px 86px 0px;
 }
 .banner img {
-  width: 556.01px;
+  width: 556px;
   height: 438px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .banner img:hover {
   transform: rotateY(360deg);
@@ -199,15 +201,15 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   .player {
-    width: 600px;
-    height: auto;
+    width: 100%;
+    height:auto;
   }
   .player-photo img {
-    width: 550px;
+    width: 95%;
     height: auto;
   }
   footer {
-    width: 600px;
+    width: 100%;
     height: auto;
     margin-left: 0px;
     margin-right: 50px;
