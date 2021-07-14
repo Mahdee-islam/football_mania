@@ -7,7 +7,6 @@ body {
 }
 main {
   display: flex;
-  /* flex-direction: column; */
 }
 .container {
   display: flex;
@@ -129,7 +128,6 @@ footer {
   align-items: center;
   width: 483px;
   height: 213px;
-
   margin-left: 400px;
   margin-right: 481px;
 }
