@@ -28,7 +28,6 @@ main {
   color: #ffffff;
   width: 1440px;
   height: 677px;
-  
 }
 .slogan {
   font-size: 64px;
@@ -185,10 +184,12 @@ footer {
   }
   .header-section {
     /* position: relative; */
-    
+
     width: 100%;
     height: auto;
     flex-direction: column;
+    padding-right: auto;
+    padding-left: auto;
   }
   .slogan {
     margin-left: 0px;
