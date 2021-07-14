@@ -183,8 +183,6 @@ footer {
     height: auto;
   }
   .header-section {
-    /* position: relative; */
-
     width: 100%;
     height: auto;
     flex-direction: column;
@@ -192,6 +190,7 @@ footer {
     padding-left: auto;
   }
   .slogan {
+    width: 100%;
     margin-left: 0px;
   }
   header .button {
