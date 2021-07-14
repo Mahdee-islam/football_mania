@@ -183,14 +183,14 @@ footer {
     height: auto;
   }
   .header-section {
-    width: 100%;
+    width: 100vw;
     height: auto;
     flex-direction: column;
     padding-right: auto;
     padding-left: auto;
   }
   .slogan {
-    width: 100%;
+    width: 100vw;
     margin-left: 0px;
   }
   header .button {
