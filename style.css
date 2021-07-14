@@ -177,7 +177,7 @@ footer {
 
 /* responsive for mobile design */
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 688px) {
   .container {
     width: 100%;
     height: auto;
@@ -216,7 +216,7 @@ footer {
 }
 
 /* responsive for tablet */
-@media only screen and (min-width: 687px) and (max-width: 991px) {
+/* @media only screen and (min-width: 688px) and (max-width: 992px) {
   .container {
     width: 100%;
     height: auto;
@@ -245,4 +245,4 @@ footer {
     margin-right: 50px;
     margin-top: 30px;
   }
-}
+} */
